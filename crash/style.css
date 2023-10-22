@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1 {
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+}
+
+iframe {
+    border-radius: 20px;
+    box-shadow: 0 0 0.2em rgb(21, 255, 0), 0 0 0.2em rgb(21, 255, 0),0 0 0.2em rgb(21, 255, 0)
+
+}
+/* Estilo para a tabela */
+table {
+    border-spacing: 10px;
+}
+.title-box {
+    font-family: 'Kanit', sans-serif;
+    background: #222; /* Cor mais escura para o retângulo do título */
+    color: #fff;
+    padding: 5px; /* Menos preenchimento */
+    border-radius: 10px 10px 0 0;
+    width: 100%; /* Reduzindo o tamanho para 40% da largura do contêiner */
+    text-align: center; /* Centralizando o texto no retângulo do título */
+    margin: 0 auto; /* Centralizando horizontalmente */
+}
+
+/* Estilo para o botão */
+button {
+    font-family: 'Kanit', sans-serif;
+    background: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0; /* Adicione margem somente na parte superior e inferior para separar do resultado */
+    display: flex; /* Tornando o botão um bloco para ocupar a largura total */
+    margin: 0 auto; /* Centralizando horizontalmente */
+    text-decoration: none
+    
+}
+
+button:hover {
+    background: #33ff00;
+}
+
+/* Estilo para o retângulo do resultado */
+.result-box {
+    font-family: 'Kanit', sans-serif;
+    background: #ffffff; /* Cor mais escura para o retângulo do resultado */
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    padding: 5px; /* Menos preenchimento */
+    width: 100%; /* Reduzindo o tamanho para 40% da largura do contêiner */
+    text-align: center; /* Centralizando o texto no retângulo do resultado */
+    margin: 0 auto; /* Centralizando horizontalmente */
+}

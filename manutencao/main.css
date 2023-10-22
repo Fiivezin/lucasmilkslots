@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.maintenance-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #ff0000;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 36px;
+    color: #e42b2b;
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    color: #792a2a;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+button {
+    font-family: 'Kanit', sans-serif;
+    background: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0; /* Adicione margem somente na parte superior e inferior para separar do resultado */
+    display: flex; /* Tornando o botão um bloco para ocupar a largura total */
+    margin: 0 auto; /* Centralizando horizontalmente */
+    text-decoration: none
+    
+}
+
+button:hover {
+    background: #33ff00;
+}
